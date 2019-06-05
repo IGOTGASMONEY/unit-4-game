@@ -11,7 +11,8 @@
 //    * There will be four crystals displayed as buttons on the page.
 // * Each crystal should have a random hidden value between 1 - 12.
 
-<
+// BUTTONS
+
 
 
 //    * The player will be shown a random number at the start of the game.
