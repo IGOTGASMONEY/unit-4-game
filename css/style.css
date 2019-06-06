@@ -63,9 +63,7 @@ height: auto;
 max-width: 20%;
 
 }
-h1 {
 
-}
 
 
 
@@ -105,5 +103,13 @@ height: 200px;
 width: 200px;
 
 
+
+}
+
+.score , .winsLosses {
+
+
+font-size: 10pt;
+font-weight: bolder;
 
 }
