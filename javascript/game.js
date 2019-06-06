@@ -32,28 +32,30 @@ $(document).ready(function() {
     var totalScore=0;
     var wins=0;
     var losses=0;
-    $("#xWins").text(wins);
-    $("#xLosses").text(losses);
+    // $("#xWins").text(+ wins);
+    // $("#xLosses").text( losses);
     
     //This will display a alert when the player has won
     function winning() {
         alert ("YOU DID IT !");
         wins++;
-        $("xWins").text(wins);
+        $("#xWins").text("wins" + wins);
         reset();
     }
 // This will display and alert when the player has lost 
     function losing() {
         alert ("TRY AGAIN LOSER !");
         losses++;
-        $("xLosses").text(losses);
+        $("xLosses").text("losses" + losses);
         reset();
     }
 
     // This function will reset the game 
     function reset() {
         // This will reset the random number at the beginnig of the game 
-        var random= Math.floor(Math.random () * 120) +19;
+        // Do not add var because sys rads as new variable 
+         random= Math.floor(Math.random () * 120) +19;
+        $('#ranNum').text(random);
         // The next part that will be cleard and set anew are all the crystal values
      ranNum1 = Math.floor(Math.random () * 12) +1;
      ranNum2 = Math.floor(Math.random () * 12) +1; 
