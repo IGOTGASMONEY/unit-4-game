@@ -1,21 +1,109 @@
 body {
-align-content: center
+background-image: url("../images/morocco.png");
+
 
 
 
 }
+
+
+.p  {
+    background-color: bisque;
+    /* margin: 10px; */
+    width: 50%;
+    height: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: aliceblue;
+}
+
+.randomNumber , .winsLosses{
+
+border-style: solid;
+margin: 15px;
+height: 120px;
+width: 150Px;
+float: left;
+
+
+
+}
+.randomNumber{
+
+background-color: greenyellow;
+
+
+
+
+
+}
+
+
+.winsLosses{
+
+background-color: aqua;
+
+}
+/* .winsLosses {
+background-color: aqua;
+width: 90px;
+border-style:solid;
+height: 120px;
+width: 90px; 
+
+
+} */
+
+
+
 
 .header {
-
+background-color: orange;
 height: auto;
-max-width: 40%;
+max-width: 20%;
+
+}
+h1 {
 
 }
 
 
-. {
 
-max-height: 80px;
-margin: 60px;
+
+.gems {
+background-color: gray;
+height: 90px;
+margin: 20px;
+border-style: solid;
+width: 10%;
+
+
+}
+
+.img {
+     /* This prevents the images from sitting next to the wins losses and random number box */
+    clear: both; 
+}
+
+.totalScore {
+
+
+background-color: aquamarine;
+height: 26px;
+width: 200px;
+margin: 10px;
+
+
+
+}
+
+.score {
+
+
+background-color: aquamarine;
+height: 200px;
+width: 200px;
+
+
 
 }
